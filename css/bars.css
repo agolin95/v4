@@ -13,10 +13,10 @@ html {
     display: flex;
     width: 100%;
     color: var(--white);
-    font-size: 20px;
+    font-size: 16px;
     padding: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: 0;
     box-shadow: 0px 0px 10px 1px black;
     position: fixed;
@@ -44,7 +44,7 @@ html {
 }
 
 .nav li img {
-    height: 25px;
+    height: 15px;
 }
 
 .footer {
@@ -52,12 +52,12 @@ html {
     display: flex;
     width: 100%;
     color: var(--white);
-    font-size: 20px;
+    font-size: 16px;
     padding: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     margin: 0;
-    box-shadow: 0px 0px 10px 1px black;
+    box-shadow: 0px 0px 5px 1px black;
     position: fixed;
     bottom: 0;
     z-index: 1000;

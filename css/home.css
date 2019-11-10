@@ -38,8 +38,8 @@
     color: var(--black);
     background-color: var(--white);
     text-align: justify;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     width: 100%;
     position: absolute;
     top: 100vh;
@@ -54,7 +54,7 @@
 }
 
 .about p {
-    font-size: 22px;
+    font-size: 16px;
     margin-top: 20px;
     line-height: 40px;
     max-width: 800px;
