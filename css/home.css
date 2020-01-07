@@ -32,6 +32,35 @@
     margin-bottom: 10px; 
 }
 
+.landing li a {
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.landing li a:hover {
+    text-decoration: line-through;
+}
+
+
+.scroll::before{
+    content: '╲╱';
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    animation: bounce 1s ease infinite;
+    top: 95vh
+  }
+  
+  @keyframes bounce {
+    50% {
+      transform: translateY(-25%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
 
 .about {
     box-sizing: border-box;
