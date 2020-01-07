@@ -36,23 +36,23 @@
     margin-top: 5px;
 }
 
-.pic{
+.content .pic{
     width: 700px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
 }
 
-.pic img {
+.content .pic img {
     width: 100%;
 }
 
-a {
+.content a {
     text-decoration: none;
     color: var(--black);
 }
 
-a:hover {
+.content a:hover {
     text-decoration: line-through;
     color: var(--gray);
 }

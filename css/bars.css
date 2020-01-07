@@ -10,6 +10,14 @@ html {
 }
 
 .nav {
+    top: 0;
+}
+
+.footer {
+    bottom: 0;
+}
+
+.bar {
     background-color: var(--black);
     display: flex;
     width: 100%;
@@ -21,64 +29,30 @@ html {
     margin: 0;
     box-shadow: 0px 0px 10px 1px black;
     position: fixed;
-    top: 0;
     z-index: 1000;
 }
 
-.nav li {
+.bar li {
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px; 
-    cursor: pointer;
-}
-
-.nav li a {
     color: var(--white);
     text-decoration: none;
     cursor: pointer;
 }
 
-.nav li a:hover {
+.bar li a {
+    color: var(--white);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.bar li:hover {
     text-decoration: line-through;
 }
 
-.nav li img {
+.bar li img {
     height: 15px;
 }
-
-.footer {
-    background-color: var(--black);
-    display: flex;
-    width: 100%;
-    color: var(--white);
-    font-size: 16px;
-    padding: 0;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 0;
-    box-shadow: 0px 0px 5px 1px black;
-    position: fixed;
-    bottom: 0;
-    z-index: 1000;
-}
-
-.footer li {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px; 
-}
-
-.footer li a {
-    color: var(--white);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.footer li a:hover {
-    text-decoration: line-through;
-}
-

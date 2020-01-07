@@ -30,20 +30,16 @@
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px; 
-}
-
-.landing li a {
     color: var(--white);
     text-decoration: none;
     cursor: pointer;
 }
 
-.landing li a:hover {
+.landing ul li:hover {
     text-decoration: line-through;
 }
 
-
-.scroll::before{
+.arrow::before{
     content: '╲╱';
     color: #fff;
     position: absolute;
@@ -51,7 +47,6 @@
     animation: bounce 1s ease infinite;
     top: 95vh
   }
-  
   @keyframes bounce {
     50% {
       transform: translateY(-25%);
@@ -92,40 +87,3 @@
     margin-right: auto;
     margin-left: auto;
 }
-
-
-.footer {
-    background-color: var(--black);
-    display: flex;
-    width: 100%;
-    color: var(--white);
-    font-size: 20px;
-    padding: 0;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0;
-    box-shadow: 0px 0px 10px 1px black;
-    position: fixed;
-    bottom: 0;
-    z-index: 1000;
-    opacity: 0;
-}
-
-.footer li {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    margin-bottom: 10px; 
-}
-
-.footer li a {
-    color: var(--white);
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.footer li a:hover {
-    text-decoration: line-through;
-}
-
