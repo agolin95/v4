@@ -22,7 +22,6 @@ html {
     display: flex;
     width: 100%;
     color: var(--white);
-    font-size: 16px;
     padding: 0;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -41,6 +40,7 @@ html {
     color: var(--white);
     text-decoration: none;
     cursor: pointer;
+    font-size: 14px;
 }
 
 .bar li a {

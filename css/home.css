@@ -8,7 +8,7 @@
 }
 
 .landing h1 {
-    font-size: 6vw;
+    font-size: 9vw;
     position: relative;
     top: 40vh;
 }
@@ -58,13 +58,6 @@
 
 
 .about {
-    box-sizing: border-box;
-    color: var(--black);
-    background-color: var(--white);
-    text-align: justify;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    width: 100%;
     position: absolute;
     top: 100vh;
     left: 0;
@@ -72,18 +65,12 @@
     min-height: 100vh;
 }
 
-.about h1 { 
-    font-size: 50px;
-    text-align: center;
-}
-
-.about p {
-    font-size: 16px;
-    margin-top: 20px;
-    line-height: 40px;
-    max-width: 800px;
-    padding-right: 30px;
-    padding-left: 30px;
-    margin-right: auto;
+.about .profpic {
+    height: 250px;
+    width: 250px;
     margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: solid white 3px;
+    border-radius: 100%;
 }

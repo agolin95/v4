@@ -11,13 +11,15 @@
   <link rel="stylesheet" href="css/home.css">
   <link rel="stylesheet" href="css/content.css">
   <link rel="stylesheet" href="css/bars.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/mobile.css">
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <ul class="nav bar">
-    <li class="leadership" onclick="pageload('leadership')">leadership</li class="">
+    <li class="leadership" onclick="pageload('leadership')">leadership</li>
     <li class="ux" onclick="pageload('ux')">ux</li>
     <li class="home logo" onclick="home()"><img src="img/AG.png"></li>
     <li class="software" onclick="pageload('software')">software</li>
@@ -26,11 +28,19 @@
   
   <div class="wrapper"></div>
 
+  <div class="modal">
+    <div class="backdrop" onclick="modal()"></div>
+    <div class="body">
+      <p>Lorem Ipsum</p>
+      <div class="close" onclick="modal()"></div>
+    </div>
+  </div>
+
   <ul class="footer bar">
     <li><a href="mailto:agolin95@gmail.com">agolin95@gmail.com</a></li>
   </ul>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
   <script src="js/main.js"></script>
 
 </body>

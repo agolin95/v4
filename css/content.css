@@ -1,11 +1,12 @@
 .content {
     box-sizing: border-box;
-    padding-top: 150px;
-    padding-bottom: 150px;
-    text-align: justify;
-    background-color: var(--white);
-    color: var(--black);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color:transparent;
+    color: var(--white);
     min-height: 100vh;
+    width: 100%;
 }
 
 .content h1 {
@@ -14,9 +15,8 @@
 }
 
 .content p {
-    font-size: 16px;
-    margin-top: 20px;
-    line-height: 40px;
+    font-size: 14px;
+    line-height: 30px;
     max-width: 800px;
     padding-right: 30px;
     padding-left: 30px;
@@ -36,17 +36,6 @@
     margin-top: 5px;
 }
 
-.content .pic{
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 25px;
-}
-
-.content .pic img {
-    width: 100%;
-}
-
 .content a {
     text-decoration: none;
     color: var(--black);
@@ -55,4 +44,101 @@
 .content a:hover {
     text-decoration: line-through;
     color: var(--gray);
+}
+
+.content .icons {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .icon {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: solid white 3px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.content .icon img {
+    height: 100%;
+}
+
+.content .icon h1, .content .icon h2 {
+    opacity: 0%;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.content .icon h1 {
+    top: 35%;
+}
+
+.content .icon h2 {
+    bottom: 25%;
+}
+
+.content .icon:hover img{
+    opacity: 0%;
+} 
+
+.content .icon:hover h1, .content .icon:hover h2{
+    opacity: 100%;
+} 
+
+.leadership.content .icon {
+    width: 400px;
+    height: 400px;
+}
+.leadership.content .icon h1, .leadership.content .icon h2{
+    font-size: 35px;
+}
+
+.ux.content .icon {
+    width: 200px;
+    height: 200px;
+}
+.ux.content .icon h1, .ux.content .icon h2{
+    font-size: 20px;
+}
+
+.software.content .icon {
+    width: 200px;
+    height: 200px;
+}
+.software.content .icon h1, .software.content .icon h2{
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+@keyframes fadeOut {
+    0% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 50%;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
+    }
 }

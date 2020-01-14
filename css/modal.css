@@ -1,0 +1,30 @@
+.modal {
+    visibility: hidden;
+}
+
+.modal .backdrop{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.6);
+    position: fixed;
+    top: 0;
+}
+
+.modal .body {
+    position: fixed;
+    top: 50px;
+    width: 80vw;
+    height: 80%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 25px;
+    border: solid white 3px;
+    border-radius: 20px;
+    background-color: var(--black);
+    color: var(--white);
+}
+.modal .close {
+    height: 25px;
+    width: 100px;
+    background-color: var(--white);
+}
